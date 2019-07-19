@@ -1,0 +1,26 @@
+.box-grid
+{
+    height: 92px;
+    background-color: grey;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 36px;
+    margin: 0 10px;
+} 
+.wait
+{
+    border: 3px dotted orange;
+    background-color: aqua;
+}
+.success
+{
+    background-color: green;
+}
+.existButFailure
+{
+    background-color: orange;
+}
+.failure
+{
+background-color: red;
+}
