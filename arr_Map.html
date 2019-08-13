@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+var student = [
+    {
+        name:"venkat",
+        age:"21",
+        sub:"angular"
+    },
+    {
+        name:"venkateshwar",
+        age:"22",
+        sub:"vueJs"
+    },
+    {
+        name:"warner",
+        age:"18",
+        sub:"react"
+    },
+    {
+        name:"ausvenkat",
+        age:"20",
+        sub:"angular"
+    },
+    {
+        name:"sathya",
+        age:"24",
+        sub:"react"
+    },
+    {
+        name:"venu",
+        age:"19",
+        sub:"angular"
+    },
+];
+
+var sub = student.filter((subs)=>subs.sub.includes("ang"));
+console.log(sub);
+
+var find = student.filter((names)=>names.name.includes("v"));
+console.log(find);
+
+var age = student.filter((ages)=>ages.age<20);
+console.log(age);
+
+</script>
+</body>
+</html>
